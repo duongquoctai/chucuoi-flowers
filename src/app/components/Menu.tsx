@@ -26,7 +26,7 @@ const Menu = () => {
         return (
           <div
             key={`${menu.title}`}
-            className="font-extralight text-lg uppercase"
+            className="styled-font text-sm uppercase font-thin cursor-pointer"
           >
             {menu.title}
           </div>

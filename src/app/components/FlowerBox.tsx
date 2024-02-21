@@ -10,9 +10,11 @@ const FlowerBox = (props: FlowerBoxProps) => {
   const { image, name, price } = props;
   return (
     <div>
-      <div className="">{image}</div>
-      <div>{name}</div>
-      <div>{price}</div>
+      <div>{image}</div>
+      <div className="my-4">
+        <div className="text-xl font-semibold">{name}</div>
+        <div>{price}</div>
+      </div>
     </div>
   );
 };

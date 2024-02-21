@@ -20,8 +20,9 @@ const Header = () => {
         </div>
         <div className="my-4 max-w-7xl m-auto flex items-center justify-between">
           <div className="">test</div>
-          <div className="text-5xl font-serif font-thin">
-            <div className="">CHU CUOI FLOWER</div>
+          <div className="text-center font-thin uppercase">
+            <div className="text-4xl">CHÚ CUỘI </div>
+            <div className="text-5xl">FLOWERS</div>
           </div>
           <div>tim kiem</div>
         </div>
